@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oblig3_software"
+version = "0.1.0"
+description = ""
+authors = ["Kosovare Isufi"]
+readme = "README.md"
+packages = [{include = "oblig3_software"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
