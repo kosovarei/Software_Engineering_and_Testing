@@ -1,4 +1,5 @@
 from oblig3_software.funksjon import isLeapYear
+import pytest
 
 
 def test_if_year_devisible_by_4_but_not_100():
