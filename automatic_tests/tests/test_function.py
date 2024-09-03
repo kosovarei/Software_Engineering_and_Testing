@@ -1,4 +1,4 @@
-from oblig3_software.funksjon import isLeapYear
+from automatic_tests.oblig3_software.funksjon import isLeapYear
 import pytest
 
 
